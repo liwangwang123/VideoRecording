@@ -15,6 +15,8 @@
 		81E4DA5F1BDE165C00286F8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E4DA5E1BDE165C00286F8C /* Images.xcassets */; };
 		81E4DA621BDE165C00286F8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E4DA601BDE165C00286F8C /* LaunchScreen.xib */; };
 		81E4DA6E1BDE165C00286F8C /* VideoRecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E4DA6D1BDE165C00286F8C /* VideoRecordingTests.m */; };
+		81E4DA781BDE171100286F8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4DA771BDE171100286F8C /* MobileCoreServices.framework */; };
+		81E4DA7A1BDE171A00286F8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4DA791BDE171A00286F8C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		81E4DA671BDE165C00286F8C /* VideoRecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoRecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E4DA6C1BDE165C00286F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81E4DA6D1BDE165C00286F8C /* VideoRecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoRecordingTests.m; sourceTree = "<group>"; };
+		81E4DA771BDE171100286F8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		81E4DA791BDE171A00286F8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E4DA7A1BDE171A00286F8C /* AVFoundation.framework in Frameworks */,
+				81E4DA781BDE171100286F8C /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,8 @@
 		81E4DA421BDE165C00286F8C = {
 			isa = PBXGroup;
 			children = (
+				81E4DA791BDE171A00286F8C /* AVFoundation.framework */,
+				81E4DA771BDE171100286F8C /* MobileCoreServices.framework */,
 				81E4DA4D1BDE165C00286F8C /* VideoRecording */,
 				81E4DA6A1BDE165C00286F8C /* VideoRecordingTests */,
 				81E4DA4C1BDE165C00286F8C /* Products */,
